@@ -67,7 +67,7 @@ class AddEventViewController: UIViewController {
                     eventLongitude = lng
                     print("LATITUDE: \(lat) LONGITUDE: \(lng)")
                     let event = Event(date: eventDate!,description: eDescription!,location: eventAddress!, latitude: eventLatitude, longitude: eventLongitude, name: eventName!,startTime: eventStartTime!,endTime: eventEndTime!,entryFee: eventPrice!,createdBy: self.userId, imageUrl: defaultUrl)
-                    self.ref.child("events").childByAutoId().setValue(event.toAnyObject())
+                    self.ref.child("events").child("test").setValue(["eventname":"fun"])
                     self.performSegue(withIdentifier: self.addEventToEvents, sender: nil)
                 }
             }

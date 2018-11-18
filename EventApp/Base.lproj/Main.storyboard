@@ -100,6 +100,24 @@
             </objects>
             <point key="canvasLocation" x="-1028" y="1147.3763118440781"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="6U0-6P-YAL">
+            <objects>
+                <viewController id="8Rx-KG-34Q" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UMr-21-EbL"/>
+                        <viewControllerLayoutGuide type="bottom" id="u6t-cw-l3H"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JuG-50-y3K">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CUp-vs-WMA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2173" y="-329"/>
+        </scene>
         <!--ViewController-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -150,8 +168,8 @@
                                     <action selector="signUpDidTouch:" destination="BYZ-38-t0r" eventType="touchDown" id="AmL-4E-Gtv"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Events App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="as3-xD-sWD">
-                                <rect key="frame" x="16" y="28" width="343" height="68"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fun@UCLA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="as3-xD-sWD">
+                                <rect key="frame" x="16" y="28" width="343" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="24"/>
                                 <nil key="textColor"/>
@@ -501,8 +519,8 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="kFV-hm-vQW"/>
-        <segue reference="GKJ-eL-mhW"/>
-        <segue reference="EUW-YC-dgv"/>
-        <segue reference="CZO-2o-7gK"/>
+        <segue reference="izE-k0-pjW"/>
+        <segue reference="iOZ-q9-OYw"/>
+        <segue reference="SNP-mm-W60"/>
     </inferredMetricsTieBreakers>
 </document>

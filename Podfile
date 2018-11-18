@@ -10,6 +10,7 @@ target 'EventApp' do
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
   pod 'AlamofireImage', '~> 3.1'
+  pod 'MessageKit'
 
   target 'EventAppTests' do
     inherit! :search_paths
@@ -25,6 +26,8 @@ target 'EventApp' do
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
+  pod 'MessageKit'
+  pod 'Scaledrone', '~> 0.3.0'
   end
 
 end
