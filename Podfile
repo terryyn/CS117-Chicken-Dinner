@@ -24,7 +24,6 @@ target 'EventApp' do
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
-  pod 'Scaledrone', '~> 0.3.0'
   end
 
 end
