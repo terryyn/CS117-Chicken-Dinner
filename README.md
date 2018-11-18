@@ -1,6 +1,7 @@
 # Fun@UCLA
-platform: iOS
-language: Swift
+Platform: iOS
+
+Language: Swift
 
 CS 117 Project
 
