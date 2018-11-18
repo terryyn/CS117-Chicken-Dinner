@@ -14,7 +14,9 @@ class EventsViewController: UIViewController {
     
     var ref: DatabaseReference!
     var userId: String!
-    
+
+    @IBAction func AddEvent(_ sender: Any) {
+    }
     let logoutSegue = "logoutSegue"
     let eventsToEventDetails = "EventsToEventDetails"
     

@@ -15,6 +15,8 @@ class AddEventViewController: UIViewController {
     var ref: DatabaseReference!
     var userId: String!
     
+    @IBAction func Back(_ sender: Any) {
+    }
     let addEventToEvents = "AddEventToEvents"
     
     @IBOutlet weak var name: UITextField!
