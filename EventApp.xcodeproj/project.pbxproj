@@ -29,7 +29,6 @@
 		01FBF9C31E1F4DF1000CF7E4 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FBF9C21E1F4DF1000CF7E4 /* MyTabBarController.swift */; };
 		94A48D546C4C1F86FC9C56B9 /* Pods_EventApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 170FFB8DC4BA30C548390117 /* Pods_EventApp.framework */; };
 		A84A07FCEAD08E7EBD1B281F /* Pods_EventAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F358E116E3D6FB802ACCBB8 /* Pods_EventAppTests.framework */; };
-		A932F8AD21A0F89500CF0EC3 /* messageviewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A932F8AC21A0F89400CF0EC3 /* messageviewcontroller.swift */; };
 		FBE7A6EEA5E7A40E68CB8BEE /* Pods_EventAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C4AF63590434A3F0A931B9E /* Pods_EventAppUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -83,7 +82,6 @@
 		6FCE37B794F77F175B24D61C /* Pods-EventApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-EventApp/Pods-EventApp.release.xcconfig"; sourceTree = "<group>"; };
 		8F358E116E3D6FB802ACCBB8 /* Pods_EventAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EventAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AD0268618F4FCA10FECFD46 /* Pods-EventAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EventAppUITests/Pods-EventAppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		A932F8AC21A0F89400CF0EC3 /* messageviewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = messageviewcontroller.swift; sourceTree = "<group>"; };
 		B63B5EB7449FD619B68B2A4D /* Pods-EventAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EventAppTests/Pods-EventAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		B8AB01B3322E0F099A7554F6 /* Pods-EventAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EventAppTests/Pods-EventAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -159,7 +157,6 @@
 				01FBF9C01E1CCE11000CF7E4 /* DraggableViewBackground.swift */,
 				01FBF9C21E1F4DF1000CF7E4 /* MyTabBarController.swift */,
 				01E0F3621E2875E900D9378F /* AccountViewController.swift */,
-				A932F8AC21A0F89400CF0EC3 /* messageviewcontroller.swift */,
 			);
 			path = EventApp;
 			sourceTree = "<group>";
@@ -540,7 +537,6 @@
 			files = (
 				01B140E71E163E590044CEAA /* EventDetailsViewController.swift in Sources */,
 				01FBF9BD1E1CCC48000CF7E4 /* OverlayView.swift in Sources */,
-				A932F8AD21A0F89500CF0EC3 /* messageviewcontroller.swift in Sources */,
 				01E0F3631E2875E900D9378F /* AccountViewController.swift in Sources */,
 				01FBF9C31E1F4DF1000CF7E4 /* MyTabBarController.swift in Sources */,
 				01CFE2811E11ABB10087104E /* ViewController.swift in Sources */,

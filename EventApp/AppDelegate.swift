@@ -8,12 +8,8 @@
 
 import UIKit
 import Firebase
-import MessageKit
 
-class ViewController: MessagesViewController {
 
-    
-}
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
