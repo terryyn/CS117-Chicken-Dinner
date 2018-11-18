@@ -279,7 +279,7 @@
 				TargetAttributes = {
 					01CFE27A1E11ABB10087104E = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = LVG6T5LGA3;
+						DevelopmentTeam = G6S29CXN8Z;
 						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -713,10 +713,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = EventApp/EventApp.entitlements;
-				DEVELOPMENT_TEAM = LVG6T5LGA3;
+				DEVELOPMENT_TEAM = G6S29CXN8Z;
 				INFOPLIST_FILE = EventApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = naveen.EventApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fun--ucla";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
@@ -730,10 +730,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = EventApp/EventApp.entitlements;
-				DEVELOPMENT_TEAM = LVG6T5LGA3;
+				DEVELOPMENT_TEAM = G6S29CXN8Z;
 				INFOPLIST_FILE = EventApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = naveen.EventApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fun--ucla";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.0;
