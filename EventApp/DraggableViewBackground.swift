@@ -170,12 +170,11 @@ class DraggableViewBackground: UIView, DraggableViewDelegate, CLLocationManagerD
                 let lat = event.latitude
                 let lng = event.longitude
                 print("LATITUDE: \(lat) LONGITUDE: \(lng)")
-                var currentLoc = self.getCurrentLocation()
+                var currentLoc = [26.69,-81.68]
                 let dist = self.getDistanceBetweenLocations(lat1: lat, lng1: lng, lat2: currentLoc[0], lng2: currentLoc[1])
                 print("DATE is later: \(currentDate.compare(dateEvent!) != ComparisonResult.orderedDescending)")
                 print("DISTANCE: \(dist)")
-                if !self.notInterestedEvents.contains(rest.key) && !self.interestedEvents.contains(rest.key)  &&
-                    currentDate.compare(dateEvent!) != ComparisonResult.orderedDescending
+                if !self.notInterestedEvents.contains(rest.key) && !self.interestedEvents.contains(rest.key)
                     && dist < 50 {
                         self.eventList.append(event)
                         self.eventKeys.append(rest.key)
@@ -195,20 +194,20 @@ class DraggableViewBackground: UIView, DraggableViewDelegate, CLLocationManagerD
         
     }
     
-    func getCurrentLocation() -> Array<Double>{
-        locationManager.delegate = self
-        locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        locationManager.requestAlwaysAuthorization()
-        locationManager.startUpdatingLocation()
-        
-        
-        let location = self.locationManager.location
-        
-        let latitude: Double = location!.coordinate.latitude
-        let longitude: Double = location!.coordinate.longitude
-        
-        return [latitude,longitude]
-    }
+//    func getCurrentLocation() -> Array<Double>{
+//        locationManager.delegate = self
+//        locationManager.desiredAccuracy = kCLLocationAccuracyBest
+//        locationManager.requestAlwaysAuthorization()
+//        locationManager.startUpdatingLocation()
+//
+//
+//        let location = self.locationManager.location
+//
+//        let latitude: Double = location!.coordinate.latitude
+//        let longitude: Double = location!.coordinate.longitude
+//
+//        return [latitude,longitude]
+//    }
     
     func getDistanceBetweenLocations(lat1:Double, lng1:Double, lat2:Double, lng2:Double) -> Double{
         let coordinate1 = CLLocation(latitude: lat1, longitude: lng1)

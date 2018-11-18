@@ -40,18 +40,18 @@ class Event{
     }
     
     init(snapshot: DataSnapshot) {
-        let snapshotValue = snapshot.value as! [String: AnyObject]
-        date = snapshotValue["date"] as! String
-        description = snapshotValue["description"] as! String
-        location = snapshotValue["location"] as! String
-        latitude = snapshotValue["latitude"] as! Double
-        longitude = snapshotValue["longitude"] as! Double
-        name = snapshotValue["name"] as! String
-        startTime = snapshotValue["startTime"] as! String
-        endTime = snapshotValue["endTime"] as! String
-        entryFee = snapshotValue["entryFee"] as! String
-        createdBy = snapshotValue["createdBy"] as! String
-        imageUrl = snapshotValue["imageUrl"] as! String
+        let snapshotValue = snapshot.value as? [String: AnyObject] ?? [:]
+        date = snapshotValue["date"] as? String ?? ""
+        description = snapshotValue["description"] as? String ?? ""
+        location = snapshotValue["location"] as? String ?? ""
+        latitude = snapshotValue["latitude"] as? Double ?? 0.0
+        longitude = snapshotValue["longitude"] as? Double ?? 0.0
+        name = snapshotValue["name"] as? String ?? ""
+        startTime = snapshotValue["startTime"] as? String ?? ""
+        endTime = snapshotValue["endTime"] as? String ?? ""
+        entryFee = snapshotValue["entryFee"] as? String ?? ""
+        createdBy = snapshotValue["createdBy"] as? String ?? ""
+        imageUrl = snapshotValue["imageUrl"] as? String ?? ""
         ref = snapshot.ref
     }
     
