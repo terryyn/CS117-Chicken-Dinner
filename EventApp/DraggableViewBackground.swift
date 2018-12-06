@@ -1,10 +1,3 @@
-//
-//  DraggableViewBackground.swift
-//  TinderSwipeCardsSwift
-//
-//  Created by Gao Chao on 4/30/15.
-//  Copyright (c) 2015 gcweb. All rights reserved.
-//
 
 import Foundation
 import UIKit

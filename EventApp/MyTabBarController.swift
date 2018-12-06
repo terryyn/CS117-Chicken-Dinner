@@ -1,10 +1,4 @@
-//
-//  MyTabBarController.swift
-//  EventApp
-//
-//  Created by Naveen Raj on 1/5/17.
-//  Copyright © 2017 Naveen Raj. All rights reserved.
-//
+
 
 import Foundation
 import UIKit

@@ -1,10 +1,4 @@
-//
-//  AccountViewController.swift
-//  EventApp
-//
-//  Created by Naveen Raj on 1/12/17.
-//  Copyright © 2017 Naveen Raj. All rights reserved.
-//
+
 
 import UIKit
 import Firebase

@@ -1,10 +1,4 @@
-//
-//  AppDelegate.swift
-//  EventApp
-//
-//  Created by Naveen Raj on 12/26/16.
-//  Copyright © 2016 Naveen Raj. All rights reserved.
-//
+
 
 import UIKit
 import Firebase
